@@ -39,8 +39,9 @@ Import-Module -Name "C:\Program Files\Microsoft Virtual Machine Converter\MvmcCm
 #Cmdlet          Stop-MvmcSourceVirtualMachine                      2.0        M
 #Cmdlet          Uninstall-MvmcSourceVMTools                        2.0        M
 #
-# Sample command:
+# Sample command: convert local VM from vSphere to Hyper-V
 # ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath "D:\VMware\Windows 10 x64_PlayerWS\Windows 10 x64_PlayerWS.vmdk" -DestinationLiteralPath "D:\VMware\Windows 10 x64_PlayerWS\Windows 10 x64_PlayerWS.vhdx" -VhdFormat VHDX
-
-# Do the conversion
-ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath "D:\VMware\Windows 10 x64_PlayerWS\Windows 10 x64_PlayerWS.vmdk" -DestinationLiteralPath "D:\VMware\Windows 10 x64_PlayerWS\Windows 10 x64_PlayerWS.vhdx" -VhdFormat VHDX
+# Sample command: convert VM from local vSphere Host to Hyper-V and upload it to the Azure cloud:
+# sample command....
+# Do the local conversion - just a test to verify MVMC powershell cmdlets are usable ;
+ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath "D:\Win10VBOX\Win10VBOX-disk1.vmdk" -DestinationLiteralPath "D:\Win10VBOX\Win10VBOX-disk1.vhdx" -VhdFormat VHDX

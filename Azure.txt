@@ -1,0 +1,11 @@
+Azure Subscription ID:
+8074cfce-94b3-4af9-b6c3-18df7b96e869
+
+Azure Portal:
+https://portal.azure.com/#blade/HubsExtension/ResourceMenuBlade/overview/id/%2Fsubscriptions%2F8074cfce-94b3-4af9-b6c3-18df7b96e869/referrerInfo/%2Fsubscriptions%2F8074cfce-94b3-4af9-b6c3-18df7b96e869
+
+Certificates overview for Azure Cloud Services:
+https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-certs-create
+
+Requirements for Conversion to Microsoft Azure:
+https://technet.microsoft.com/en-us/library/dn874004(v=ws.11).aspx

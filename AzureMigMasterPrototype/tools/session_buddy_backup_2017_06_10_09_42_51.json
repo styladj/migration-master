@@ -1,0 +1,365 @@
+﻿{
+   "format": "nxs.json.v1",
+   "created": "2017-06-10T07:42:51.052Z",
+   "session_scope": "all",
+   "include_session": true,
+   "include_window": true,
+   "platform": "Win32",
+   "language": "en-US",
+   "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.82 Safari/537.36",
+   "sb_id": "edacconmaakjimmfgnblocblbcdcpbko",
+   "sb_version": "3.5.1",
+   "sb_installation_id": "lebqq2hlWTDWCbJLUwje8HDayeEv9iuF",
+   "sb_installed": "2017-06-10T07:42:05.266Z",
+   "sessions": [
+      {
+         "type": "current",
+         "generated": "2017-06-10T07:42:51.038Z",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 717,
+               "id": 1,
+               "incognito": false,
+               "left": 186,
+               "state": "normal",
+               "tabs": [
+                  {
+                     "active": false,
+                     "audible": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 584,
+                     "highlighted": false,
+                     "id": 4,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Install and configure Azure PowerShell | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps?view=azurermps-4.0.0#step-2-install-azure-powershell",
+                     "width": 1032,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "favIconUrl": "https://chocolatey.org/favicon.ico",
+                     "height": 627,
+                     "highlighted": false,
+                     "id": 8,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Chocolatey Gallery | ARMClient 1.2.0",
+                     "url": "https://chocolatey.org/packages/ARMClient",
+                     "width": 1032,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "favIconUrl": "https://assets-cdn.github.com/favicon.ico",
+                     "height": 627,
+                     "highlighted": false,
+                     "id": 18,
+                     "incognito": false,
+                     "index": 2,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Login and Acquire Tokens · projectkudu/ARMClient Wiki · GitHub",
+                     "url": "https://github.com/projectKudu/ARMClient/wiki/Login-and-Acquire-Tokens",
+                     "width": 1032,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "favIconUrl": "https://chocolatey.org/favicon.ico",
+                     "height": 584,
+                     "highlighted": false,
+                     "id": 12,
+                     "incognito": false,
+                     "index": 3,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Installation",
+                     "url": "https://chocolatey.org/install",
+                     "width": 1032,
+                     "windowId": 1
+                  },
+                  {
+                     "active": true,
+                     "audible": false,
+                     "favIconUrl": "",
+                     "height": 627,
+                     "highlighted": true,
+                     "id": 34,
+                     "incognito": false,
+                     "index": 4,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "azure - Session Buddy",
+                     "url": "chrome-extension://edacconmaakjimmfgnblocblbcdcpbko/main.html#8iuZ7OGkzZPJIzP75MXKHSsUb5zpNaRh",
+                     "width": 1032,
+                     "windowId": 1
+                  }
+               ],
+               "top": 12,
+               "type": "normal",
+               "width": 1050
+            }
+         ]
+      },
+      {
+         "type": "saved",
+         "name": "azure",
+         "generated": "2017-06-10T07:42:08.731Z",
+         "created": "2017-06-10T07:42:44.228Z",
+         "modified": "2017-06-10T07:42:44.228Z",
+         "id": 2,
+         "gid": "8iuZ7OGkzZPJIzP75MXKHSsUb5zpNaRh",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 717,
+               "id": 1,
+               "incognito": false,
+               "left": 186,
+               "state": "normal",
+               "tabs": [
+                  {
+                     "active": false,
+                     "audible": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 584,
+                     "highlighted": false,
+                     "id": 4,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Install and configure Azure PowerShell | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps?view=azurermps-4.0.0#step-2-install-azure-powershell",
+                     "width": 1032,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "favIconUrl": "https://chocolatey.org/favicon.ico",
+                     "height": 627,
+                     "highlighted": false,
+                     "id": 8,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Chocolatey Gallery | ARMClient 1.2.0",
+                     "url": "https://chocolatey.org/packages/ARMClient",
+                     "width": 1032,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "favIconUrl": "https://assets-cdn.github.com/favicon.ico",
+                     "height": 627,
+                     "highlighted": false,
+                     "id": 18,
+                     "incognito": false,
+                     "index": 2,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Login and Acquire Tokens · projectkudu/ARMClient Wiki · GitHub",
+                     "url": "https://github.com/projectKudu/ARMClient/wiki/Login-and-Acquire-Tokens",
+                     "width": 1032,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "favIconUrl": "https://chocolatey.org/favicon.ico",
+                     "height": 584,
+                     "highlighted": false,
+                     "id": 12,
+                     "incognito": false,
+                     "index": 3,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Installation",
+                     "url": "https://chocolatey.org/install",
+                     "width": 1032,
+                     "windowId": 1
+                  },
+                  {
+                     "active": true,
+                     "audible": false,
+                     "favIconUrl": "",
+                     "height": 627,
+                     "highlighted": true,
+                     "id": 34,
+                     "incognito": false,
+                     "index": 4,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "Current Session - Session Buddy",
+                     "url": "chrome-extension://edacconmaakjimmfgnblocblbcdcpbko/main.html",
+                     "width": 1032,
+                     "windowId": 1
+                  }
+               ],
+               "top": 12,
+               "type": "normal",
+               "width": 1050
+            }
+         ]
+      },
+      {
+         "type": "saved",
+         "name": "Session Buddy",
+         "generated": "2017-06-10T07:42:05.266Z",
+         "created": "2017-06-10T07:42:05.266Z",
+         "modified": "2017-06-10T07:42:05.266Z",
+         "id": 1,
+         "gid": "l1PhB8wADJOSlqzXrpfzwtpP4QAv7pw5",
+         "windows": [
+            {
+               "nx_title": "How to",
+               "state": "normal",
+               "type": "normal",
+               "tabs": [
+                  {
+                     "favIconUrl": "https://sessionbuddy.com/images/favicon.png",
+                     "pinned": false,
+                     "title": "Back up Session Buddy Data",
+                     "url": "https://sessionbuddy.com/backup-restore/"
+                  },
+                  {
+                     "favIconUrl": "https://sessionbuddy.com/images/favicon.png",
+                     "pinned": false,
+                     "title": "Import and Export Session Buddy Data",
+                     "url": "https://sessionbuddy.com/import-export/"
+                  },
+                  {
+                     "favIconUrl": "https://sessionbuddy.com/images/favicon.png",
+                     "pinned": false,
+                     "title": "Customize Date and Time Formats",
+                     "url": "https://sessionbuddy.com/date-formatting/"
+                  }
+               ]
+            },
+            {
+               "nx_title": "Support",
+               "state": "normal",
+               "type": "normal",
+               "tabs": [
+                  {
+                     "favIconUrl": "https://sessionbuddy.com/images/favicon.png",
+                     "pinned": false,
+                     "title": "Troubleshooting",
+                     "url": "https://sessionbuddy.com/troubleshooting/"
+                  },
+                  {
+                     "favIconUrl": "https://groups.google.com/forum/favicon.ico",
+                     "pinned": false,
+                     "title": "Session Buddy Forum",
+                     "url": "https://groups.google.com/forum/?fromgroups#!forum/sessionbuddy-discuss"
+                  }
+               ]
+            },
+            {
+               "nx_title": "Manage",
+               "state": "normal",
+               "type": "normal",
+               "tabs": [
+                  {
+                     "pinned": false,
+                     "title": "Settings",
+                     "url": "chrome-extension://edacconmaakjimmfgnblocblbcdcpbko/options.html"
+                  },
+                  {
+                     "favIconUrl": "chrome://theme/IDR_EXTENSIONS_FAVICON@2x",
+                     "pinned": false,
+                     "title": "Manage Extension",
+                     "url": "chrome://extensions/?id=edacconmaakjimmfgnblocblbcdcpbko"
+                  },
+                  {
+                     "favIconUrl": "https://www.google.com/images/icons/product/chrome_web_store-32.png",
+                     "pinned": false,
+                     "title": "Session Buddy in the Chrome Web Store",
+                     "url": "https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko"
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "user_settings": {
+      "dateDisplayType": "relative",
+      "sessionSummaryRender_PreviousSessionQueueSize": 3,
+      "sessionSummaryRender_PanelWidth": 260,
+      "sessionSummaryRender_ShowAnnotation": "true",
+      "sessionRender_RenderSessionURL": "false",
+      "sessionRender_ShowAdminTabsInItalic": "false",
+      "sessionRender_ShowSessionCountsInNavigationPane": "false",
+      "sessionMerge_WarnOnMerge": "true",
+      "sessionSave_AskForName": "true",
+      "sessionSave_ConfirmClose": "true",
+      "sessionEdit_HideDuplicateTabsInMerge": "true",
+      "customDateFormat": "",
+      "appMode": "",
+      "sessionEdit_IgnoreUrlParamsInTabCompare": "false",
+      "sessionSave_ShowSaveCurrentInRightClickMenus": "true",
+      "enableKeyboardShortcuts": "true",
+      "sessionRender_ShowExtensionBadge": "false",
+      "tabFiltering_FilterSessionBuddyTabs": "true",
+      "tabFiltering_FilterChromeAdministrativeTabs": "false",
+      "sessionExport_ShowWindows": "false",
+      "sessionExport_ShowTitles": "false",
+      "sessionExport_ShowURLs": "true",
+      "sessionExport_Format": "Text"
+   }
+}

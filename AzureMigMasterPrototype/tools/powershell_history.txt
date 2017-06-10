@@ -1,0 +1,151 @@
+Windows PowerShell
+Copyright (C) 2016 Microsoft Corporation. All rights reserved.
+
+PS C:\Windows\system32> Install-Module AzureRM
+
+NuGet provider is required to continue
+PowerShellGet requires NuGet provider version '2.8.5.201' or newer to interact with NuGet-based repositories. The NuGet
+ provider must be available in 'C:\Program Files\PackageManagement\ProviderAssemblies' or
+'C:\Users\matthias\AppData\Local\PackageManagement\ProviderAssemblies'. You can also install the NuGet provider by
+running 'Install-PackageProvider -Name NuGet -MinimumVersion 2.8.5.201 -Force'. Do you want PowerShellGet to install
+and import the NuGet provider now?
+[Y] Yes  [N] No  [S] Suspend  [?] Help (default is "Y"): y
+
+Untrusted repository
+You are installing the modules from an untrusted repository. If you trust this repository, change its
+InstallationPolicy value by running the Set-PSRepository cmdlet. Are you sure you want to install the modules from
+'PSGallery'?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): A
+PS C:\Windows\system32> iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       10.06.2017     09:33                chocInstall
+Getting latest version of the Chocolatey package for download.
+Getting Chocolatey from https://chocolatey.org/api/v2/package/chocolatey/0.10.7.
+Downloading 7-Zip commandline tool prior to extraction.
+Extracting C:\Users\matthias\AppData\Local\Temp\chocolatey\chocInstall\chocolatey.zip to C:\Users\matthias\AppData\Local
+\Temp\chocolatey\chocInstall...
+Installing chocolatey on this machine
+& : File C:\Users\matthias\AppData\Local\Temp\chocolatey\chocInstall\tools\chocolateyInstall.ps1 cannot be loaded
+because running scripts is disabled on this system. For more information, see about_Execution_Policies at
+http://go.microsoft.com/fwlink/?LinkID=135170.
+At line:247 char:3
++ & $chocInstallPS1
++   ~~~~~~~~~~~~~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+Ensuring chocolatey commands are on the path
+Ensuring chocolatey.nupkg is in the lib folder
+d-----       10.06.2017     09:33                chocolatey
+
+
+PS C:\Windows\system32> Set-ExecutionPolicy Bypass
+
+Execution Policy Change
+The execution policy helps protect you from scripts that you do not trust. Changing the execution policy might expose
+you to the security risks described in the about_Execution_Policies help topic at
+http://go.microsoft.com/fwlink/?LinkID=135170. Do you want to change the execution policy?
+[Y] Yes  [A] Yes to All  [N] No  [L] No to All  [S] Suspend  [?] Help (default is "N"): y
+PS C:\Windows\system32> iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+Getting latest version of the Chocolatey package for download.
+Getting Chocolatey from https://chocolatey.org/api/v2/package/chocolatey/0.10.7.
+Extracting C:\Users\matthias\AppData\Local\Temp\chocolatey\chocInstall\chocolatey.zip to C:\Users\matthias\AppData\Local
+\Temp\chocolatey\chocInstall...
+Installing chocolatey on this machine
+Creating ChocolateyInstall as an environment variable (targeting 'Machine')
+  Setting ChocolateyInstall to 'C:\ProgramData\chocolatey'
+WARNING: It's very likely you will need to close and reopen your shell
+  before you can use choco.
+Restricting write permissions to Administrators
+We are setting up the Chocolatey package repository.
+The packages themselves go to 'C:\ProgramData\chocolatey\lib'
+  (i.e. C:\ProgramData\chocolatey\lib\yourPackageName).
+A shim file for the command line goes to 'C:\ProgramData\chocolatey\bin'
+  and points to an executable in 'C:\ProgramData\chocolatey\lib\yourPackageName'.
+
+Creating Chocolatey folders if they do not already exist.
+
+WARNING: You can safely ignore errors related to missing log files when
+  upgrading from a version of Chocolatey less than 0.9.9.
+  'Batch file could not be found' is also safe to ignore.
+  'The system cannot find the file specified' - also safe.
+PATH environment variable does not have C:\ProgramData\chocolatey\bin in it. Adding...
+WARNING: Not setting tab completion: Profile file does not exist at
+'C:\Users\matthias\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1'.
+Chocolatey (choco.exe) is now ready.
+You can call choco from anywhere, command line or powershell by typing choco.
+Run choco /? for a list of functions.
+You may need to shut down and restart powershell and/or consoles
+ first prior to using choco.
+Ensuring chocolatey commands are on the path
+Ensuring chocolatey.nupkg is in the lib folder
+PS C:\Windows\system32> choco install armclient
+Chocolatey v0.10.7
+Installing the following packages:
+armclient
+By installing you accept licenses for the packages.
+Progress: Downloading ARMClient 1.2.0... 100%
+
+ARMClient v1.2.0 [Approved]
+armclient package files install completed. Performing other installation steps.
+ ShimGen has successfully created a shim for AADClient.exe
+ ShimGen has successfully created a shim for ARMClient.exe
+ ShimGen has successfully created a shim for ARMClient.Library.Runner.exe
+ ShimGen has successfully created a shim for ArmGuiClient.exe
+ The install of armclient was successful.
+  Software install location not explicitly set, could be in package or
+  default install location if installer.
+
+Chocolatey installed 1/1 packages.
+ See the log for details (C:\ProgramData\chocolatey\logs\chocolatey.log).
+PS C:\Windows\system32> arcmlient
+arcmlient : The term 'arcmlient' is not recognized as the name of a cmdlet, function, script file, or operable
+program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ arcmlient
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (arcmlient:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Windows\system32> armclient
+ARMClient version 1.2.0.0
+A simple tool to invoke the Azure Resource Manager API
+Source code is available on https://github.com/projectkudu/ARMClient.
+
+Login and get tokens
+    ARMClient.exe login [environment name]
+
+Call ARM api
+    ARMClient.exe [get|post|put|patch|delete] [url] (<@file|content>) (-h "header: value") (-verbose)
+    Use '-h' multiple times to add more than one custom HTTP header.
+
+Copy token to clipboard
+    ARMClient.exe token [tenant|subscription]
+
+Get token by ServicePrincipal
+    ARMClient.exe spn [tenant] [appId] (appKey)
+    ARMClient.exe spn [tenant] [appId] [certificate] (password)
+
+Get token by Username/Password
+    ARMClient.exe upn [username] (password)
+
+List token cache
+    ARMClient.exe listcache
+
+Clear token cache
+    ARMClient.exe clearcache
+PS C:\Windows\system32> history
+
+  Id CommandLine
+  -- -----------
+   1 Install-Module AzureRM
+   2 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+   3 Set-ExecutionPolicy Bypass
+   4 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+   5 choco install armclient
+   6 arcmlient
+   7 armclient
+
+
+PS C:\Windows\system32>

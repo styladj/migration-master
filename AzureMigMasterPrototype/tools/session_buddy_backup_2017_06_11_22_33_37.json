@@ -1,0 +1,2637 @@
+﻿{
+   "format": "nxs.json.v1",
+   "created": "2017-06-11T20:33:37.500Z",
+   "session_scope": "all",
+   "include_session": true,
+   "include_window": true,
+   "platform": "Win32",
+   "language": "en-US",
+   "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36",
+   "sb_id": "edacconmaakjimmfgnblocblbcdcpbko",
+   "sb_version": "3.5.1",
+   "sb_installation_id": "eLeDu4wv4ToR8L7yDU7FcXaSOzbQiQ8d",
+   "sb_installed": "2017-04-20T17:16:55.117Z",
+   "sessions": [
+      {
+         "type": "current",
+         "generated": "2017-06-11T20:33:37.488Z",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 934,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://chocolatey.org/favicon.ico",
+                     "height": 601,
+                     "highlighted": false,
+                     "id": 6,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Chocolatey Gallery | ARMClient 1.2.0",
+                     "url": "https://chocolatey.org/packages/ARMClient",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://assets-cdn.github.com/favicon.ico",
+                     "height": 601,
+                     "highlighted": false,
+                     "id": 8,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Login and Acquire Tokens · projectkudu/ARMClient Wiki · GitHub",
+                     "url": "https://github.com/projectKudu/ARMClient/wiki/Login-and-Acquire-Tokens",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://chocolatey.org/favicon.ico",
+                     "height": 828,
+                     "highlighted": false,
+                     "id": 10,
+                     "incognito": false,
+                     "index": 2,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Installation",
+                     "url": "https://chocolatey.org/install",
+                     "width": 1686,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 828,
+                     "highlighted": false,
+                     "id": 44,
+                     "incognito": false,
+                     "index": 3,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Azure Resource Manager | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/rest/api/resources/",
+                     "width": 1686,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 828,
+                     "highlighted": false,
+                     "id": 32,
+                     "incognito": false,
+                     "index": 4,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "SubscriptionClient | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/rest/api/resources/subscriptions#Subscriptions_Get",
+                     "width": 1686,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 828,
+                     "highlighted": false,
+                     "id": 50,
+                     "incognito": false,
+                     "index": 5,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "SubscriptionClient | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/rest/api/resources/tenants",
+                     "width": 1686,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 828,
+                     "highlighted": false,
+                     "id": 52,
+                     "incognito": false,
+                     "index": 6,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "ResourceManagementClient | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/rest/api/resources/resourcegroups",
+                     "width": 1686,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 828,
+                     "highlighted": false,
+                     "id": 54,
+                     "incognito": false,
+                     "index": 7,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "ResourceManagementClient | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/rest/api/resources/resources#Resources_Get",
+                     "width": 1686,
+                     "windowId": 1
+                  },
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "",
+                     "height": 828,
+                     "highlighted": true,
+                     "id": 67,
+                     "incognito": false,
+                     "index": 8,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "ARMClient_choco - Session Buddy",
+                     "url": "chrome-extension://edacconmaakjimmfgnblocblbcdcpbko/main.html#CfkU67BnVJn5CmN4Yr9p7kgTqeiU45N8",
+                     "width": 1686,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1702
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-06-07T19:12:02.505Z",
+         "created": "2017-06-10T11:17:26.596Z",
+         "id": 18,
+         "gid": "XZZHrfBx0sqg5jk6AXhJVz8LZVePuZ6C",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 876,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://cfl.dropboxstatic.com/static/images/favicon-vflk5FiAC.ico",
+                     "height": 770,
+                     "highlighted": false,
+                     "id": 2,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Dateien – Dropbox",
+                     "url": "https://www.dropbox.com/home",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://cfl.dropboxstatic.com/static/images/favicon-vflk5FiAC.ico",
+                     "height": 770,
+                     "highlighted": false,
+                     "id": 6,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Konto - Dropbox",
+                     "url": "https://www.dropbox.com/account/security#security",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://cfl.dropboxstatic.com/static/images/favicon-vflk5FiAC.ico",
+                     "height": 770,
+                     "highlighted": true,
+                     "id": 4,
+                     "incognito": false,
+                     "index": 2,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "Computer oder Mobilgeräte neu oder wieder mit Dropbox verknüpfen – Dropbox",
+                     "url": "https://www.dropbox.com/help/mobile/unlink-relink-computer-mobile",
+                     "width": 1440,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1456
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-06-07T18:33:47.336Z",
+         "created": "2017-06-07T19:08:33.624Z",
+         "id": 17,
+         "gid": "DnBtisuBip4tTaBHRiiJl3pIwRJPLgRM",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 876,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "http://www.pool.ntp.org/static/images/favicon.v717cb32.ico",
+                     "height": 770,
+                     "highlighted": true,
+                     "id": 2,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "pool.ntp.org: NTP Servers in Austria, at.pool.ntp.org",
+                     "url": "http://www.pool.ntp.org/zone/at",
+                     "width": 1440,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1456
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-06-06T18:11:24.359Z",
+         "created": "2017-06-07T18:33:24.717Z",
+         "id": 16,
+         "gid": "UHvISwZIw96TBwTbNAisq0cIsxNzygPh",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 876,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "height": 721,
+                     "highlighted": false,
+                     "id": 2,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "",
+                     "url": "http://aka.ms/azure-powershellget2",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "",
+                     "height": 770,
+                     "highlighted": true,
+                     "id": 4,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "openerTabId": 2,
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "Downloads",
+                     "url": "chrome://downloads/",
+                     "width": 1440,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1456
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-06-06T18:10:44.866Z",
+         "created": "2017-06-06T18:11:12.566Z",
+         "id": 15,
+         "gid": "zp4X8vq5rPrgTQiuwdLNsQAfFxaPiwg8",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 876,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://azurecomcdn.azureedge.net/cvt-90cdaf487716184e4034000935c605d1633926d348116d198f355a98b8c6cd21/images/icon/favicon.ico",
+                     "height": 770,
+                     "highlighted": true,
+                     "id": 2,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "Azure Code Samples | Microsoft Azure",
+                     "url": "https://azure.microsoft.com/en-us/resources/samples/?term=replicate+virtual+machine",
+                     "width": 1440,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1456
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-05-29T19:20:30.311Z",
+         "created": "2017-06-06T18:10:15.589Z",
+         "id": 14,
+         "gid": "5P3j7qr7uLRiwZxCdmFp3nTSdBXHwF1w",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": false,
+               "height": 730,
+               "id": 4,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://az213233.vo.msecnd.net/Content/favicon.ico",
+                     "height": 624,
+                     "highlighted": false,
+                     "id": 5,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Microsoft Azure",
+                     "url": "https://manage.windowsazure.com/fh-burgenland.at#Workspaces/All/dashboard",
+                     "width": 1440,
+                     "windowId": 4
+                  },
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://portal.azure.com/favicon.ico",
+                     "height": 624,
+                     "highlighted": true,
+                     "id": 7,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "Dashboard",
+                     "url": "https://portal.azure.com/#dashboard/private/258bada9-b3c6-4a2b-a5ed-97ded816700c",
+                     "width": 1440,
+                     "windowId": 4
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 624,
+                     "highlighted": false,
+                     "id": 9,
+                     "incognito": false,
+                     "index": 2,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Azure Site Recovery support matrix for replicating to Azure | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-support-matrix-to-azure#service-urls",
+                     "width": 1440,
+                     "windowId": 4
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 11,
+                     "incognito": false,
+                     "index": 3,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Replicate VMware VMs to Azure | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-vmware-to-azure",
+                     "width": 1920,
+                     "windowId": 4
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 13,
+                     "incognito": false,
+                     "index": 4,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Migrate to Azure with Site Recovery | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-migrate-to-azure",
+                     "width": 1920,
+                     "windowId": 4
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 15,
+                     "incognito": false,
+                     "index": 5,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Azure Site Recovery support matrix for replicating to Azure | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-support-matrix-to-azure#support-for-replicated-machine-os-versions",
+                     "width": 1920,
+                     "windowId": 4
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://i1.social.s-msft.com/Forums/GlobalResources/images/Msdn/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 17,
+                     "incognito": false,
+                     "index": 6,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Msdn forums - Microsoft Azure Site Recovery",
+                     "url": "https://social.msdn.microsoft.com/Forums/en-US/home?forum=hypervrecovmgr",
+                     "width": 1920,
+                     "windowId": 4
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1456
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-05-24T07:04:47.055Z",
+         "created": "2017-05-24T07:06:20.575Z",
+         "id": 13,
+         "gid": "aHVT2UoZLs8JMW6577sagMIw7AR2BRc9",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 955,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://vcsa.kainzhomelan.local/vsphere-client/assets/application.ico",
+                     "height": 849,
+                     "highlighted": true,
+                     "id": 2,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "vSphere Web Client",
+                     "url": "https://vcsa.kainzhomelan.local/vsphere-client/?csp#extensionId%3Dvsphere.core.host.summary%3Bcontext%3Dcom.vmware.core.model%253A%253AServerObjectRef~db090117-1480-4195-bca5-730f304c7399%253AHostSystem%253Ahost-18~core",
+                     "width": 1920,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1936
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-05-23T15:00:37.654Z",
+         "created": "2017-05-24T07:00:37.274Z",
+         "id": 12,
+         "gid": "7rYuymLWY3UHE9q30d6xVXDix58KYvgB",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 955,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://az213233.vo.msecnd.net/Content/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 4,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Microsoft Azure",
+                     "url": "https://manage.windowsazure.com/fh-burgenland.at#Workspaces/All/dashboard",
+                     "width": 1920,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://portal.azure.com/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 6,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Add Server - Microsoft Azure",
+                     "url": "https://portal.azure.com/#resource/subscriptions/8074cfce-94b3-4af9-b6c3-18df7b96e869/resourceGroups/mmaster/providers/Microsoft.RecoveryServices/vaults/MMaster-AZ-Site-Recovery/replicationGettingStarted",
+                     "width": 1920,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 8,
+                     "incognito": false,
+                     "index": 2,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Azure Site Recovery support matrix for replicating to Azure | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-support-matrix-to-azure#service-urls",
+                     "width": 1920,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 10,
+                     "incognito": false,
+                     "index": 3,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Replicate VMware VMs to Azure | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-vmware-to-azure",
+                     "width": 1920,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 12,
+                     "incognito": false,
+                     "index": 4,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Migrate to Azure with Site Recovery | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-migrate-to-azure",
+                     "width": 1920,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 14,
+                     "incognito": false,
+                     "index": 5,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Azure Site Recovery support matrix for replicating to Azure | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-support-matrix-to-azure#support-for-replicated-machine-os-versions",
+                     "width": 1920,
+                     "windowId": 1
+                  },
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://i1.social.s-msft.com/Forums/GlobalResources/images/Msdn/favicon.ico",
+                     "height": 849,
+                     "highlighted": true,
+                     "id": 16,
+                     "incognito": false,
+                     "index": 6,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "Msdn forums - Microsoft Azure Site Recovery",
+                     "url": "https://social.msdn.microsoft.com/Forums/en-US/home?forum=hypervrecovmgr",
+                     "width": 1920,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1936
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-05-22T19:07:05.728Z",
+         "created": "2017-05-22T20:04:49.494Z",
+         "id": 11,
+         "gid": "q6bpuSU7jUoTvVMZJKavIjdFKH8HWlxh",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 955,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://az213233.vo.msecnd.net/Content/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 20,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Microsoft Azure",
+                     "url": "https://manage.windowsazure.com/fh-burgenland.at#Workspaces/All/dashboard",
+                     "width": 1920,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://portal.azure.com/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 4,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Add Server - Microsoft Azure",
+                     "url": "https://portal.azure.com/#resource/subscriptions/8074cfce-94b3-4af9-b6c3-18df7b96e869/resourceGroups/mmaster/providers/Microsoft.RecoveryServices/vaults/MMaster-AZ-Site-Recovery/replicationGettingStarted",
+                     "width": 1920,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 24,
+                     "incognito": false,
+                     "index": 2,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "openerTabId": 4,
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Azure Site Recovery support matrix for replicating to Azure | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-support-matrix-to-azure#service-urls",
+                     "width": 1920,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 8,
+                     "incognito": false,
+                     "index": 3,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Replicate VMware VMs to Azure | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-vmware-to-azure",
+                     "width": 1920,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 624,
+                     "highlighted": false,
+                     "id": 10,
+                     "incognito": false,
+                     "index": 4,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Migrate to Azure with Site Recovery | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-migrate-to-azure",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 624,
+                     "highlighted": false,
+                     "id": 12,
+                     "incognito": false,
+                     "index": 5,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Azure Site Recovery support matrix for replicating to Azure | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-support-matrix-to-azure#support-for-replicated-machine-os-versions",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://i1.social.s-msft.com/Forums/GlobalResources/images/Msdn/favicon.ico",
+                     "height": 624,
+                     "highlighted": false,
+                     "id": 14,
+                     "incognito": false,
+                     "index": 6,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Msdn forums - Microsoft Azure Site Recovery",
+                     "url": "https://social.msdn.microsoft.com/Forums/en-US/home?forum=hypervrecovmgr",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "",
+                     "height": 849,
+                     "highlighted": true,
+                     "id": 27,
+                     "incognito": false,
+                     "index": 7,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "Azure - Session Buddy",
+                     "url": "chrome-extension://edacconmaakjimmfgnblocblbcdcpbko/main.html#3FjOSlmbFh5tJ8LvwLggSOXL9KfmoXmU",
+                     "width": 1920,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1936
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-05-20T19:40:44.473Z",
+         "created": "2017-05-20T19:45:49.858Z",
+         "id": 10,
+         "gid": "TE9RFAENFy43cLuwCE7X4keioqQba8yZ",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 730,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://portal.azure.com/favicon.ico",
+                     "height": 628,
+                     "highlighted": false,
+                     "id": 2,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Dashboard",
+                     "url": "https://portal.azure.com/#dashboard/private/258bada9-b3c6-4a2b-a5ed-97ded816700c",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://az213233.vo.msecnd.net/Content/favicon.ico",
+                     "height": 628,
+                     "highlighted": false,
+                     "id": 65,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Microsoft Azure",
+                     "url": "https://manage.windowsazure.com/fh-burgenland.at#Workspaces/All/dashboard",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 628,
+                     "highlighted": false,
+                     "id": 6,
+                     "incognito": false,
+                     "index": 2,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Replicate VMware VMs to Azure | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-vmware-to-azure",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 628,
+                     "highlighted": false,
+                     "id": 42,
+                     "incognito": false,
+                     "index": 3,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Migrate to Azure with Site Recovery | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-migrate-to-azure",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 628,
+                     "highlighted": false,
+                     "id": 24,
+                     "incognito": false,
+                     "index": 4,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Azure Site Recovery support matrix for replicating to Azure | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-support-matrix-to-azure#support-for-replicated-machine-os-versions",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "height": 624,
+                     "highlighted": false,
+                     "id": 67,
+                     "incognito": false,
+                     "index": 5,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Msdn forums - Microsoft Azure Site Recovery",
+                     "url": "https://social.msdn.microsoft.com/Forums/en-US/home?forum=hypervrecovmgr",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "",
+                     "height": 624,
+                     "highlighted": true,
+                     "id": 85,
+                     "incognito": false,
+                     "index": 6,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "Azure - Session Buddy",
+                     "url": "chrome-extension://edacconmaakjimmfgnblocblbcdcpbko/main.html#3FjOSlmbFh5tJ8LvwLggSOXL9KfmoXmU",
+                     "width": 1440,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1456
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-05-16T20:09:31.876Z",
+         "created": "2017-05-19T10:54:24.106Z",
+         "id": 9,
+         "gid": "HDHjUKhdtjp5hAcf9IP7KsHPZpiCwhUw",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 734,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "chrome://theme/IDR_PRODUCT_LOGO_16@2x",
+                     "height": 628,
+                     "highlighted": true,
+                     "id": 2,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "About",
+                     "url": "chrome://help/",
+                     "width": 1440,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1456
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-05-11T18:06:04.211Z",
+         "created": "2017-05-16T20:09:22.052Z",
+         "id": 8,
+         "gid": "oJfsEsxMat8zd5Zw2IYmRO5HwqsnSmcc",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 734,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://vcsa.kainzhomelan.local/vsphere-client/assets/application.ico",
+                     "height": 628,
+                     "highlighted": false,
+                     "id": 2,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "vSphere Web Client",
+                     "url": "https://vcsa.kainzhomelan.local/vsphere-client/?csp#extensionId%3Dvsphere.core.vm.summary%3Bcontext%3Dcom.vmware.core.model%253A%253AServerObjectRef~db090117-1480-4195-bca5-730f304c7399%253AVirtualMachine%253Avm-104~core",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "height": 628,
+                     "highlighted": true,
+                     "id": 10,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "openerTabId": 2,
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "",
+                     "url": "vmrc://clone:cst-VCT-52912c5f-ea79-bf14-1582-aacfb6b8389b--tp-86-BA-AC-98-EA-A9-0A-42-E9-C9-EA-C5-60-C4-B1-89-EB-39-70-B1@vcsa.kainzhomelan.local:443/?moid=vm-104",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "",
+                     "height": 628,
+                     "highlighted": false,
+                     "id": 8,
+                     "incognito": false,
+                     "index": 2,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Downloads",
+                     "url": "chrome://downloads/",
+                     "width": 1440,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1456
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-05-11T17:53:41.329Z",
+         "created": "2017-05-11T17:53:54.780Z",
+         "id": 7,
+         "gid": "LcByJ7YBxqSf6Q6D5kzeZFn534fbrt0X",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 734,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://vcsa.kainzhomelan.local/vsphere-client/assets/application.ico",
+                     "height": 628,
+                     "highlighted": true,
+                     "id": 2,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "vSphere Web Client",
+                     "url": "https://vcsa.kainzhomelan.local/vsphere-client/?csp#",
+                     "width": 1440,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1456
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-05-05T23:02:16.931Z",
+         "created": "2017-05-11T17:52:16.056Z",
+         "id": 6,
+         "gid": "HEyao9mRhzOl9u",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 734,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 628,
+                     "highlighted": false,
+                     "id": 13,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "loading",
+                     "title": "Cloud Services and management certificates | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-certs-create",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "height": 628,
+                     "highlighted": false,
+                     "id": 15,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "loading",
+                     "title": "How To Connect to Microsoft Azure with PowerShell -- Redmondmag.com",
+                     "url": "https://redmondmag.com/articles/2016/01/25/connect-to-microsoft-azure-with-powershell.aspx",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://az213233.vo.msecnd.net/Content/favicon.ico",
+                     "height": 628,
+                     "highlighted": true,
+                     "id": 17,
+                     "incognito": false,
+                     "index": 2,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "manage.windowsazure.com",
+                     "url": "https://manage.windowsazure.com/publishsettings/index?client=powershell",
+                     "width": 1440,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1456
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-04-24T19:51:38.266Z",
+         "created": "2017-05-05T23:02:09.245Z",
+         "id": 5,
+         "gid": "AE626u7uPAPS5a",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 902,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 796,
+                     "highlighted": false,
+                     "id": 2,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Cloud Services and management certificates | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-certs-create",
+                     "width": 1698,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "height": 796,
+                     "highlighted": false,
+                     "id": 4,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "How To Connect to Microsoft Azure with PowerShell -- Redmondmag.com",
+                     "url": "https://redmondmag.com/articles/2016/01/25/connect-to-microsoft-azure-with-powershell.aspx",
+                     "width": 1698,
+                     "windowId": 1
+                  },
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://az213233.vo.msecnd.net/Content/favicon.ico",
+                     "height": 747,
+                     "highlighted": true,
+                     "id": 8,
+                     "incognito": false,
+                     "index": 2,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "Downloading the publish profile...",
+                     "url": "https://manage.windowsazure.com/publishsettings/index?client=powershell",
+                     "width": 1698,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1714
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-04-24T18:32:41.789Z",
+         "created": "2017-04-24T18:59:16.733Z",
+         "id": 4,
+         "gid": "cQoLuFtD4v6niu",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 902,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 796,
+                     "highlighted": true,
+                     "id": 2,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "Cloud Services and management certificates | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/cloud-services/cloud-services-certs-create",
+                     "width": 1698,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1714
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-04-21T13:43:08.775Z",
+         "created": "2017-04-24T18:32:24.690Z",
+         "id": 3,
+         "gid": "ug04RRQKoOhfDZ",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": false,
+               "height": 734,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://openvpn.net/templates/telethra/favicon.ico",
+                     "height": 579,
+                     "highlighted": true,
+                     "id": 2,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "Downloads",
+                     "url": "https://openvpn.net/index.php/open-source/downloads.html",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "http://www.chip.de/fec/fea-home/1.2.3/favicon/favicon.ico",
+                     "height": 579,
+                     "highlighted": false,
+                     "id": 6,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "CHIP - Deutschlands Webseite Nr. 1 für Computer, Handy und Home Entertainment",
+                     "url": "http://www.chip.de/?icp2=DLer",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "",
+                     "height": 628,
+                     "highlighted": false,
+                     "id": 8,
+                     "incognito": false,
+                     "index": 2,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "openerTabId": 2,
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Downloads",
+                     "url": "chrome://downloads/",
+                     "width": 1440,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1456
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-04-20T17:24:27.745Z",
+         "created": "2017-04-21T13:34:04.063Z",
+         "id": 2,
+         "gid": "2ZzjTp0G4kyRXl",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 902,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "chrome://theme/IDR_SETTINGS_FAVICON@2x",
+                     "height": 796,
+                     "highlighted": true,
+                     "id": 4,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "Settings",
+                     "url": "chrome://settings/",
+                     "width": 1698,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "",
+                     "height": 796,
+                     "highlighted": false,
+                     "id": 6,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "openerTabId": 4,
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Downloads",
+                     "url": "chrome://downloads/",
+                     "width": 1698,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1714
+            }
+         ]
+      },
+      {
+         "type": "previous",
+         "generated": "2017-04-20T17:19:31.297Z",
+         "created": "2017-04-20T17:21:55.449Z",
+         "id": 1,
+         "gid": "1h4cKeKUc5jQKL",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 902,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://azurecomcdn.azureedge.net/cvt-90cdaf487716184e4034000935c605d1633926d348116d198f355a98b8c6cd21/images/icon/favicon.ico",
+                     "height": 796,
+                     "highlighted": false,
+                     "id": 12,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Microsoft Azure: Cloud-Computing-Plattform und -Dienste",
+                     "url": "https://azure.microsoft.com/de-de/?&wt.mc_id=AID529462_SEM_",
+                     "width": 1698,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://www.google.com/images/icons/product/chrome_web_store-32.png",
+                     "height": 796,
+                     "highlighted": false,
+                     "id": 10,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Chrome Web Store - session buddy",
+                     "url": "https://chrome.google.com/webstore/search/session%20buddy?hl=de",
+                     "width": 1698,
+                     "windowId": 1
+                  },
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "chrome://theme/IDR_SETTINGS_FAVICON@2x",
+                     "height": 796,
+                     "highlighted": true,
+                     "id": 16,
+                     "incognito": false,
+                     "index": 2,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "openerTabId": 12,
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "Settings",
+                     "url": "chrome://settings/",
+                     "width": 1698,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1714
+            }
+         ]
+      },
+      {
+         "type": "saved",
+         "name": "Session Buddy",
+         "generated": "2017-06-10T07:42:05.266Z",
+         "created": "2017-06-10T07:42:05.266Z",
+         "modified": "2017-06-10T07:42:05.266Z",
+         "id": 5,
+         "gid": "Bkb4kRVwdOIhrvSfj4hljn5SC3e5dcqh",
+         "windows": [
+            {
+               "nx_title": "How to",
+               "state": "normal",
+               "type": "normal",
+               "tabs": [
+                  {
+                     "favIconUrl": "https://sessionbuddy.com/images/favicon.png",
+                     "pinned": false,
+                     "title": "Back up Session Buddy Data",
+                     "url": "https://sessionbuddy.com/backup-restore/"
+                  },
+                  {
+                     "favIconUrl": "https://sessionbuddy.com/images/favicon.png",
+                     "pinned": false,
+                     "title": "Import and Export Session Buddy Data",
+                     "url": "https://sessionbuddy.com/import-export/"
+                  },
+                  {
+                     "favIconUrl": "https://sessionbuddy.com/images/favicon.png",
+                     "pinned": false,
+                     "title": "Customize Date and Time Formats",
+                     "url": "https://sessionbuddy.com/date-formatting/"
+                  }
+               ]
+            },
+            {
+               "nx_title": "Support",
+               "state": "normal",
+               "type": "normal",
+               "tabs": [
+                  {
+                     "favIconUrl": "https://sessionbuddy.com/images/favicon.png",
+                     "pinned": false,
+                     "title": "Troubleshooting",
+                     "url": "https://sessionbuddy.com/troubleshooting/"
+                  },
+                  {
+                     "favIconUrl": "https://groups.google.com/forum/favicon.ico",
+                     "pinned": false,
+                     "title": "Session Buddy Forum",
+                     "url": "https://groups.google.com/forum/?fromgroups#!forum/sessionbuddy-discuss"
+                  }
+               ]
+            },
+            {
+               "nx_title": "Manage",
+               "state": "normal",
+               "type": "normal",
+               "tabs": [
+                  {
+                     "pinned": false,
+                     "title": "Settings",
+                     "url": "chrome-extension://edacconmaakjimmfgnblocblbcdcpbko/options.html"
+                  },
+                  {
+                     "favIconUrl": "chrome://theme/IDR_EXTENSIONS_FAVICON@2x",
+                     "pinned": false,
+                     "title": "Manage Extension",
+                     "url": "chrome://extensions/?id=edacconmaakjimmfgnblocblbcdcpbko"
+                  },
+                  {
+                     "favIconUrl": "https://www.google.com/images/icons/product/chrome_web_store-32.png",
+                     "pinned": false,
+                     "title": "Session Buddy in the Chrome Web Store",
+                     "url": "https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "type": "saved",
+         "name": "azure",
+         "generated": "2017-06-10T07:42:08.731Z",
+         "created": "2017-06-10T07:42:44.228Z",
+         "modified": "2017-06-10T07:42:44.228Z",
+         "id": 4,
+         "gid": "0gGzRYzJsEa5PL6nRYn8fDxQkgt8QPW4",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 717,
+               "id": 1,
+               "incognito": false,
+               "left": 186,
+               "state": "normal",
+               "tabs": [
+                  {
+                     "active": false,
+                     "audible": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 584,
+                     "highlighted": false,
+                     "id": 4,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Install and configure Azure PowerShell | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/powershell/azure/install-azurerm-ps?view=azurermps-4.0.0#step-2-install-azure-powershell",
+                     "width": 1032,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "favIconUrl": "https://chocolatey.org/favicon.ico",
+                     "height": 627,
+                     "highlighted": false,
+                     "id": 8,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Chocolatey Gallery | ARMClient 1.2.0",
+                     "url": "https://chocolatey.org/packages/ARMClient",
+                     "width": 1032,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "favIconUrl": "https://assets-cdn.github.com/favicon.ico",
+                     "height": 627,
+                     "highlighted": false,
+                     "id": 18,
+                     "incognito": false,
+                     "index": 2,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Login and Acquire Tokens · projectkudu/ARMClient Wiki · GitHub",
+                     "url": "https://github.com/projectKudu/ARMClient/wiki/Login-and-Acquire-Tokens",
+                     "width": 1032,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "favIconUrl": "https://chocolatey.org/favicon.ico",
+                     "height": 584,
+                     "highlighted": false,
+                     "id": 12,
+                     "incognito": false,
+                     "index": 3,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Installation",
+                     "url": "https://chocolatey.org/install",
+                     "width": 1032,
+                     "windowId": 1
+                  },
+                  {
+                     "active": true,
+                     "audible": false,
+                     "favIconUrl": "",
+                     "height": 627,
+                     "highlighted": true,
+                     "id": 34,
+                     "incognito": false,
+                     "index": 4,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "Current Session - Session Buddy",
+                     "url": "chrome-extension://edacconmaakjimmfgnblocblbcdcpbko/main.html",
+                     "width": 1032,
+                     "windowId": 1
+                  }
+               ],
+               "top": 12,
+               "type": "normal",
+               "width": 1050
+            }
+         ]
+      },
+      {
+         "type": "saved",
+         "name": "ARMClient_choco",
+         "generated": "2017-06-10T07:42:51.038Z",
+         "created": "2017-06-10T14:25:14.813Z",
+         "modified": "2017-06-11T20:25:23.336Z",
+         "id": 3,
+         "gid": "CfkU67BnVJn5CmN4Yr9p7kgTqeiU45N8",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 934,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://chocolatey.org/favicon.ico",
+                     "height": 601,
+                     "highlighted": false,
+                     "id": 6,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Chocolatey Gallery | ARMClient 1.2.0",
+                     "url": "https://chocolatey.org/packages/ARMClient",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://assets-cdn.github.com/favicon.ico",
+                     "height": 601,
+                     "highlighted": false,
+                     "id": 8,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Login and Acquire Tokens · projectkudu/ARMClient Wiki · GitHub",
+                     "url": "https://github.com/projectKudu/ARMClient/wiki/Login-and-Acquire-Tokens",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://chocolatey.org/favicon.ico",
+                     "height": 828,
+                     "highlighted": false,
+                     "id": 10,
+                     "incognito": false,
+                     "index": 2,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Installation",
+                     "url": "https://chocolatey.org/install",
+                     "width": 1686,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 828,
+                     "highlighted": false,
+                     "id": 44,
+                     "incognito": false,
+                     "index": 3,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Azure Resource Manager | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/rest/api/resources/",
+                     "width": 1686,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 828,
+                     "highlighted": false,
+                     "id": 32,
+                     "incognito": false,
+                     "index": 4,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "SubscriptionClient | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/rest/api/resources/subscriptions#Subscriptions_Get",
+                     "width": 1686,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 828,
+                     "highlighted": false,
+                     "id": 50,
+                     "incognito": false,
+                     "index": 5,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "SubscriptionClient | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/rest/api/resources/tenants",
+                     "width": 1686,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 828,
+                     "highlighted": false,
+                     "id": 52,
+                     "incognito": false,
+                     "index": 6,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "ResourceManagementClient | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/rest/api/resources/resourcegroups",
+                     "width": 1686,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 828,
+                     "highlighted": false,
+                     "id": 54,
+                     "incognito": false,
+                     "index": 7,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "ResourceManagementClient | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/rest/api/resources/resources#Resources_Get",
+                     "width": 1686,
+                     "windowId": 1
+                  },
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "",
+                     "height": 828,
+                     "highlighted": true,
+                     "id": 67,
+                     "incognito": false,
+                     "index": 8,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "ARMClient_choco - Session Buddy",
+                     "url": "chrome-extension://edacconmaakjimmfgnblocblbcdcpbko/main.html#CfkU67BnVJn5CmN4Yr9p7kgTqeiU45N8",
+                     "width": 1686,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1702
+            }
+         ]
+      },
+      {
+         "type": "saved",
+         "name": "Azure",
+         "generated": "2017-05-19T20:09:23.878Z",
+         "created": "2017-05-19T20:09:32.380Z",
+         "modified": "2017-05-22T19:07:07.069Z",
+         "id": 2,
+         "gid": "3FjOSlmbFh5tJ8LvwLggSOXL9KfmoXmU",
+         "windows": [
+            {
+               "alwaysOnTop": false,
+               "focused": true,
+               "height": 955,
+               "id": 1,
+               "incognito": false,
+               "left": -8,
+               "state": "maximized",
+               "tabs": [
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://az213233.vo.msecnd.net/Content/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 20,
+                     "incognito": false,
+                     "index": 0,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Microsoft Azure",
+                     "url": "https://manage.windowsazure.com/fh-burgenland.at#Workspaces/All/dashboard",
+                     "width": 1920,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://portal.azure.com/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 4,
+                     "incognito": false,
+                     "index": 1,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Add Server - Microsoft Azure",
+                     "url": "https://portal.azure.com/#resource/subscriptions/8074cfce-94b3-4af9-b6c3-18df7b96e869/resourceGroups/mmaster/providers/Microsoft.RecoveryServices/vaults/MMaster-AZ-Site-Recovery/replicationGettingStarted",
+                     "width": 1920,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 24,
+                     "incognito": false,
+                     "index": 2,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "openerTabId": 4,
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Azure Site Recovery support matrix for replicating to Azure | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-support-matrix-to-azure#service-urls",
+                     "width": 1920,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 849,
+                     "highlighted": false,
+                     "id": 8,
+                     "incognito": false,
+                     "index": 3,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Replicate VMware VMs to Azure | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-vmware-to-azure",
+                     "width": 1920,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 624,
+                     "highlighted": false,
+                     "id": 10,
+                     "incognito": false,
+                     "index": 4,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Migrate to Azure with Site Recovery | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-migrate-to-azure",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://docs.microsoft.com/favicon.ico",
+                     "height": 624,
+                     "highlighted": false,
+                     "id": 12,
+                     "incognito": false,
+                     "index": 5,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Azure Site Recovery support matrix for replicating to Azure | Microsoft Docs",
+                     "url": "https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-support-matrix-to-azure#support-for-replicated-machine-os-versions",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": false,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "https://i1.social.s-msft.com/Forums/GlobalResources/images/Msdn/favicon.ico",
+                     "height": 624,
+                     "highlighted": false,
+                     "id": 14,
+                     "incognito": false,
+                     "index": 6,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": false,
+                     "status": "complete",
+                     "title": "Msdn forums - Microsoft Azure Site Recovery",
+                     "url": "https://social.msdn.microsoft.com/Forums/en-US/home?forum=hypervrecovmgr",
+                     "width": 1440,
+                     "windowId": 1
+                  },
+                  {
+                     "active": true,
+                     "audible": false,
+                     "autoDiscardable": true,
+                     "discarded": false,
+                     "favIconUrl": "",
+                     "height": 849,
+                     "highlighted": true,
+                     "id": 27,
+                     "incognito": false,
+                     "index": 7,
+                     "mutedInfo": {
+                        "muted": false
+                     },
+                     "pinned": false,
+                     "selected": true,
+                     "status": "complete",
+                     "title": "Azure - Session Buddy",
+                     "url": "chrome-extension://edacconmaakjimmfgnblocblbcdcpbko/main.html#3FjOSlmbFh5tJ8LvwLggSOXL9KfmoXmU",
+                     "width": 1920,
+                     "windowId": 1
+                  }
+               ],
+               "top": -8,
+               "type": "normal",
+               "width": 1936
+            }
+         ]
+      },
+      {
+         "type": "saved",
+         "name": "Session Buddy",
+         "generated": "2017-04-20T17:16:55.117Z",
+         "created": "2017-04-20T17:16:55.117Z",
+         "modified": "2017-04-20T17:16:55.117Z",
+         "id": 1,
+         "gid": "ffYRiML1oRz1sk",
+         "windows": [
+            {
+               "nx_title": "How to",
+               "state": "normal",
+               "type": "normal",
+               "tabs": [
+                  {
+                     "favIconUrl": "http://sessionbuddy.com/backupRestore/logo_16x16.png",
+                     "pinned": false,
+                     "title": "Back up Session Buddy Data",
+                     "url": "http://sessionbuddy.com/backupRestore/backupRestore.html"
+                  },
+                  {
+                     "favIconUrl": "http://sessionbuddy.com/importExport/logo_16x16.png",
+                     "pinned": false,
+                     "title": "Import and Export Session Buddy Data",
+                     "url": "http://sessionbuddy.com/importExport/importExport.html"
+                  },
+                  {
+                     "favIconUrl": "http://sessionbuddy.com/DateFormatting/logo_16x16.png",
+                     "pinned": false,
+                     "title": "Customize Date and Time Formats",
+                     "url": "http://sessionbuddy.com/DateFormatting/dateFormatting.html"
+                  }
+               ]
+            },
+            {
+               "nx_title": "Support",
+               "state": "normal",
+               "type": "normal",
+               "tabs": [
+                  {
+                     "favIconUrl": "http://sessionbuddy.com/support/troubleshooting/logo_16x16.png",
+                     "pinned": false,
+                     "title": "Troubleshooting",
+                     "url": "http://sessionbuddy.com/support/troubleshooting/"
+                  },
+                  {
+                     "favIconUrl": "https://groups.google.com/forum/favicon.ico",
+                     "pinned": false,
+                     "title": "Session Buddy Forum",
+                     "url": "https://groups.google.com/forum/?fromgroups#!forum/sessionbuddy-discuss"
+                  }
+               ]
+            },
+            {
+               "nx_title": "Manage",
+               "state": "normal",
+               "type": "normal",
+               "tabs": [
+                  {
+                     "pinned": false,
+                     "title": "Settings",
+                     "url": "chrome-extension://edacconmaakjimmfgnblocblbcdcpbko/options.html"
+                  },
+                  {
+                     "favIconUrl": "chrome://theme/IDR_EXTENSIONS_FAVICON@2x",
+                     "pinned": false,
+                     "title": "Manage Extension",
+                     "url": "chrome://extensions/?id=edacconmaakjimmfgnblocblbcdcpbko"
+                  },
+                  {
+                     "favIconUrl": "https://www.google.com/images/icons/product/chrome_web_store-32.png",
+                     "pinned": false,
+                     "title": "Session Buddy in the Chrome Web Store",
+                     "url": "https://chrome.google.com/webstore/detail/session-buddy/edacconmaakjimmfgnblocblbcdcpbko"
+                  }
+               ]
+            }
+         ]
+      }
+   ],
+   "user_settings": {
+      "dateDisplayType": "relative",
+      "sessionSummaryRender_PreviousSessionQueueSize": 3,
+      "sessionSummaryRender_PanelPosition": "left",
+      "sessionSummaryRender_PanelWidth": 260,
+      "sessionSummaryRender_ShowAnnotation": "true",
+      "sessionRender_RenderSessionURL": "false",
+      "sessionRender_ShowAdminTabsInItalic": "false",
+      "sessionRender_ShowSessionCountsInNavigationPane": "false",
+      "sessionMerge_WarnOnMerge": "true",
+      "sessionSave_AskForName": "true",
+      "sessionSave_ConfirmClose": "true",
+      "sessionEdit_HideDuplicateTabsInMerge": "true",
+      "customDateFormat": "",
+      "appMode": "",
+      "sessionEdit_IgnoreUrlParamsInTabCompare": "false",
+      "sessionSave_ShowSaveCurrentInRightClickMenus": "true",
+      "enableKeyboardShortcuts": "true",
+      "sessionRender_ShowExtensionBadge": "false",
+      "tabFiltering_FilterSessionBuddyTabs": "true",
+      "tabFiltering_FilterChromeAdministrativeTabs": "false",
+      "sessionExport_ShowWindows": "false",
+      "sessionExport_ShowTitles": "false",
+      "sessionExport_ShowURLs": "true",
+      "sessionExport_Format": "Text"
+   }
+}

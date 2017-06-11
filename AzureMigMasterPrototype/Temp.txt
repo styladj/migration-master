@@ -1,0 +1,154 @@
+: Create Azure Active Directory Application:
+  - If not logged in, log in to the Azure Portal
+  - Then choose "Azure Active Directory" and select "App registrations"
+  - Proceed with "Add" and create an application with the following parameters:
+    - Name: AZ-Migmaster-AAD
+    - Application Type: Web app / API
+    - Sign-on URL: http://AZ-Migmaster-AAD
+    - Finally click on "Create"
+  - Application ID is: 8c2e06a6-d5b6-4be1-8d60-7086d2ccc972
+
+: Grab Application ID and generate the authentication key:
+  - From "App registrations" in Azure Active Directory, select the previously created "AZ-Migmaster-AAD"
+  - Note the Application ID: 8c2e06a6-d5b6-4be1-8d60-7086d2ccc972
+  - now generate the authentication key:
+    - description: AZ-Migmaster-Key
+    - Expires: in 1 year
+    - Note the key value (!): IyvZvyZDIuuLRucg0Q+ssjACzacwJrU6k/3OZv1dVz0=
+
+: Get the tenant ID:
+  - In order to get the tenant ID, select "Properties" for the Azure AD tenant
+  - Copy the directory ID: e2367125-41e3-4124-bacc-5ee027d27287
+
+
+  ----------
+
+
+  PS C:\Users\win10box> armclient spn e2367125-41e3-4124-bacc-5ee027d27287 8c2e06a6-d5b6-4be1-8d60-7086d2ccc972  IyvZvyuuLRucg0Q+ssjACzacwJrU6k/3OZv1dVz0=
+
+: Azure API versions:
+
+armclient GET $SUB/resourceGroups?api-version=2014-04-01
+2015-11-10
+
+PS C:\Users\win10box> Login-AzureRmAccount
+
+
+Environment           : AzureCloud
+Account               : 1610781015@fh-burgenland.at
+TenantId              : e2367125-41e3-4124-bacc-5ee027d27287
+SubscriptionId        : 8074cfce-94b3-4af9-b6c3-18df7b96e869
+SubscriptionName      : Pay-As-You-Go
+CurrentStorageAccount :
+
+
+
+PS C:\Users\win10box> ((Get-AzureRmResourceProvider -ProviderNamespace Microsoft.Web).ResourceTypes | Where-Object Re
+rceTypeName -eq sites).ApiVersions
+2016-08-01
+2016-03-01
+2015-08-01-preview
+2015-08-01
+2015-07-01
+2015-06-01
+2015-05-01
+2015-04-01
+2015-02-01
+2014-11-01
+2014-06-01
+2014-04-01-preview
+
+GET /tenants?api-version=2016-06-01
+
+ResourceGroups: mmaster
+
+Resource Groups
+API Version: 2017-05-10
+Check Existence
+Checks whether a resource group exists.
+http
+
+Copy
+HEAD $SUB/resourcegroups/$ResGroup?api-version=2017-05-10
+
+Get API versions:
+PS C:\Users\win10box> ((Get-AzureRmResourceProvider -ProviderNamespace Microsoft.Resources).ResourceTypes)
+
+
+ResourceTypeName : tenants
+Locations        : {}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : locations
+Locations        : {}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : providers
+Locations        : {}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : checkresourcename
+Locations        : {}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : resources
+Locations        : {}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : subscriptions
+Locations        : {}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : subscriptions/resources
+Locations        : {}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : subscriptions/providers
+Locations        : {}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : subscriptions/operationresults
+Locations        : {}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : resourceGroups
+Locations        : {Central US, East Asia, Southeast Asia, East US...}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : subscriptions/resourceGroups
+Locations        : {Central US, East Asia, Southeast Asia, East US...}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : subscriptions/resourcegroups/resources
+Locations        : {}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : subscriptions/locations
+Locations        : {}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : subscriptions/tagnames
+Locations        : {}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : subscriptions/tagNames/tagValues
+Locations        : {}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : deployments
+Locations        : {}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : deployments/operations
+Locations        : {}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : links
+Locations        : {}
+ApiVersions      : {2016-09-01, 2016-07-01, 2016-06-01, 2016-02-01...}
+
+ResourceTypeName : operations
+Locations        : {}
+ApiVersions      : {2015-01-01}
+
+Source: https://www.danielstechblog.info/using-the-latest-api-version-in-your-azure-resource-manager-templates/

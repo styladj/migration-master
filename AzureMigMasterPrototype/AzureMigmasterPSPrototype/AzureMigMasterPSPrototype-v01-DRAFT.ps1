@@ -16,20 +16,25 @@
 #	- added installation of chocolatey and ARMClient
 #	- added authentication to Azure by token
 #	- added resource group listing
+# 2017-06-12:
+#	- added fabrics
+############################################################
 
 # BASIC VARIABLES
 # VAR for subscription
-Set-Variable -Name "SUB" -Value "/subscriptions/8074cfce-94b3-4af9-b6c3-18df7b96e869"
+Set-Variable -Name "SUB" -Value "/subscriptions/8074cfce-94b3-4af9-b6c3-18df7b96e869";
 # VAR for resourceGroup Name
-Set-Variable -Name "ResGroup" -Value "mmaster"
+Set-Variable -Name "ResGroup" -Value "mmaster";
 # VAR for Azure API version; change version here if required; 
-Set-Variable -Name "ResAZapi" -Value "2016-09-01"
+Set-Variable -Name "ResAZapi" -Value "2016-09-01";
 # VAR for Azure Tenant ID
-Set-Variable -Name "TenantID" -Value "e2367125-41e3-4124-bacc-5ee027d27287"
+Set-Variable -Name "TenantID" -Value "e2367125-41e3-4124-bacc-5ee027d27287";
 # VAR for Azure AD application ID
-Set-Variable -Name "AppID" -Value "8c2e06a6-d5b6-4be1-8d60-7086d2ccc972"
+Set-Variable -Name "AppID" -Value "8c2e06a6-d5b6-4be1-8d60-7086d2ccc972";
 # VAR for Azure AD application
-Set-Variable -Name "SPKey" -Value "IyvZvyZDIuuLRucg0Q+ssjACzacwJrU6k/3OZv1dVz0="
+Set-Variable -Name "SPKey" -Value "IyvZvyZDIuuLRucg0Q+ssjACzacwJrU6k/3OZv1dVz0=";
+# VAR for Azure Site Recovery vault
+Set-Variable -Name "ASRVault" -Value "MMaster-AZ-Site-Recovery";
 
 # Return values to user
 Echo "Your tenant and application ID are: ";
@@ -57,11 +62,16 @@ iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/in
 choco install armclient
 
 # Authenticate with Azure; Get a token
-armclient spn e2367125-41e3-4124-bacc-5ee027d27287 8c2e06a6-d5b6-4be1-8d60-7086d2ccc972 IyvZvyZDIuuLRucg0Q+ssjACzacwJrU6k/3OZv1dVz0=
+armclient spn $TenantID $AppID $SPKey
 
 Echo "Hit any key to start basic tests to ensure you can access Azure..."
 $HOST.UI.RawUI.ReadKey(“NoEcho,IncludeKeyDown”) | OUT-NULL
 $HOST.UI.RawUI.Flushinputbuffer()
-# Get resource groups in Azure
-Echo "Getting resource groups in Azure..."
+
+# Get resource groups in Azure  and display all available resource groups the service principal can access
+Echo "Getting and displaying all resource groups the service principal can access in Azure..."
 armclient GET $SUB/resourceGroups?api-version=$ResAZapi
+
+# Get fabrics in Azure Site Recovery
+Echo "Getting list of fabrics in Azure Site Recovery..."
+armclient GET $SUB/resourceGroups/$ResGroup//providers/Microsoft.RecoveryServices/vaults/$ASRVault/replicationFabrics?api-version=2015-11-10

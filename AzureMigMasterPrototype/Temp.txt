@@ -20,6 +20,13 @@
   - In order to get the tenant ID, select "Properties" for the Azure AD tenant
   - Copy the directory ID: e2367125-41e3-4124-bacc-5ee027d27287
 
+: Azure Site Recovery Vault:
+MMaster-AZ-Site-Recovery
+
+-----------------------------------------------------------------
+
+Azure Site Recovery REST API:
+- https://msdn.microsoft.com/en-us/library/mt750497.aspx
 
   ----------
 

@@ -28,8 +28,11 @@ MMaster-AZ-Site-Recovery
 Azure Site Recovery REST API:
 - https://msdn.microsoft.com/en-us/library/mt750497.aspx
 
-  ----------
+-----------
 
+armclient GET $SUB/resourceGroups/$ResGroup//providers/Microsoft.RecoveryServices/vaults/MMaster-AZ-Site-Recovery/replicationFabrics?api-version=2015-11-10
+
+------------
 
   PS C:\Users\win10box> armclient spn e2367125-41e3-4124-bacc-5ee027d27287 8c2e06a6-d5b6-4be1-8d60-7086d2ccc972  IyvZvyuuLRucg0Q+ssjACzacwJrU6k/3OZv1dVz0=
 

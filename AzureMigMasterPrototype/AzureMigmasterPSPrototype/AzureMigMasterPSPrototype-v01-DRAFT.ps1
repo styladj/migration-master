@@ -32,7 +32,7 @@ Set-Variable -Name "ResAZapi" -Value "2016-09-01";
 Set-Variable -Name "TenantID" -Value "e2367125-41e3-4124-bacc-5ee027d27287";
 # VAR for Azure AD application ID
 Set-Variable -Name "AppID" -Value "8c2e06a6-d5b6-4be1-8d60-7086d2ccc972";
-# VAR for Azure AD application
+# VAR for Azure AD application key
 Set-Variable -Name "SPKey" -Value "IyvZvyZDIuuLRucg0Q+ssjACzacwJrU6k/3OZv1dVz0=";
 # VAR for Azure Site Recovery vault
 Set-Variable -Name "ASRVault" -Value "MMaster-AZ-Site-Recovery";
@@ -48,6 +48,12 @@ Set-Variable -Name "ASRProtectionContainerName" -Value "cloud_6484e0e8-9d78-46e1
 # VARIABLES FOR ADVANCED PART
 # VAR for ASR name of protectable on-premises VM 'Moon_UbuntuBOX'
 Set-Variable -Name "ProtectableItemMoon" -Value "28cb61d5-4af6-11e7-8306-005056ae9154"
+
+# VAR for Replication policy name in ASR
+Set-Variable -Name "ReplicationPolicy" -Value "d8e4aaf5-3fee-4291-8928-4aff1dc783cf"
+
+# VAR for Failback Replication policy name in ASR
+Set-Variable -Name "FailbackReplicationPolicy" -Value "10c93c82-a5ac-4a03-bc7f-2ad1943af72a"
 
 # Return values to user
 Echo "Your tenant and application ID are: ";
@@ -125,4 +131,8 @@ armclient GET $SUB/resourceGroups/$ResGroup/providers/Microsoft.RecoveryServices
 # Now add the protectable item to the protection container in Azure Site Recovery ;
 #Echo "The prototype will now add the protectable item 'Moon_UbuntuBOX' to the protection container in Azure Site Recovery..."
 #armclient POST $SUB/resourceGroups/$ResGroup/providers/Microsoft.RecoveryServices/vaults/$ASRVault/replicationFabrics/$fabric/replicationProtectionContainers/$ASRProtectionContainerName/discoverProtectableItem?api-version=2015-11-10
+
+# List protection container mappings for a protection container in ASR
+Echo "Listing protection container mappings for the protection container in ASR..."
+armclient GET $SUB/resourceGroups/$ResGroup/providers/Microsoft.RecoveryServices/vaults/$ASRVault/replicationFabrics/$fabric/replicationProtectionContainers/$ASRProtectionContainerName/replicationProtectionContainerMappings?api-version=2015-11-10
 

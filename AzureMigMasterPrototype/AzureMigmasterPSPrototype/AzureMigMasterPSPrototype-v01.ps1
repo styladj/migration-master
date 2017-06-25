@@ -19,6 +19,9 @@
 # 2017-06-12:
 #	- added fabrics
 #	- prepared prototype for replication
+# 2017-06-25:
+#	- added test failover and failover commands
+#	- created JSON input files for test failover and final failover
 ############################################################
 
 # BASIC VARIABLES
@@ -48,6 +51,9 @@ Set-Variable -Name "ASRProtectionContainerName" -Value "cloud_6484e0e8-9d78-46e1
 # VARIABLES FOR ADVANCED PART
 # VAR for ASR name of protectable on-premises VM 'Moon_UbuntuBOX'
 Set-Variable -Name "ProtectableItemMoon" -Value "28cb61d5-4af6-11e7-8306-005056ae9154"
+
+# VAR for ASR name of protected on-premises VM 'Moon_UbuntuBOX'
+Set-Variable -Name "ProtectedItemMoon" -Value "28cb61d5-4af6-11e7-8306-005056ae9154"
 
 # VAR for Replication policy name in ASR
 Set-Variable -Name "ReplicationPolicy" -Value "d8e4aaf5-3fee-4291-8928-4aff1dc783cf"
@@ -128,11 +134,38 @@ armclient GET $SUB/resourceGroups/$ResGroup/providers/Microsoft.RecoveryServices
 Echo "The prototype will now get more information about the protectable on-premises VM 'Moon_UbuntuBOX'..."
 armclient GET $SUB/resourceGroups/$ResGroup/providers/Microsoft.RecoveryServices/vaults/$ASRVault/replicationFabrics/$fabric/replicationProtectionContainers/$ASRProtectionContainerName/replicationProtectableItems/"$ProtectableItemMoon"?api-version=2015-11-10
 
-# Now add the protectable item to the protection container in Azure Site Recovery ;
-#Echo "The prototype will now add the protectable item 'Moon_UbuntuBOX' to the protection container in Azure Site Recovery..."
-#armclient POST $SUB/resourceGroups/$ResGroup/providers/Microsoft.RecoveryServices/vaults/$ASRVault/replicationFabrics/$fabric/replicationProtectionContainers/$ASRProtectionContainerName/discoverProtectableItem?api-version=2015-11-10
-
-# List protection container mappings for a protection container in ASR
+# List protection container mappings for a protection container in ASR ;
 Echo "Listing protection container mappings for the protection container in ASR..."
 armclient GET $SUB/resourceGroups/$ResGroup/providers/Microsoft.RecoveryServices/vaults/$ASRVault/replicationFabrics/$fabric/replicationProtectionContainers/$ASRProtectionContainerName/replicationProtectionContainerMappings?api-version=2015-11-10
+
+# Get a list of replication protected items in Azure ;
+armclient GET $SUB/resourceGroups/$ResGroup/providers/Microsoft.RecoveryServices/vaults/$ASRVault/replicationFabrics/$fabric/replicationProtectionContainers/$ASRProtectionContainerName/replicationProtectedItems?api-version=2015-11-10
+
+# Get details of protected on-premises VM 'Moon_UbuntuBOX' ;
+Echo "The prototype will now get more information about the protected on-premises VM 'Moon_UbuntuBOX'..."
+armclient GET $SUB/resourceGroups/$ResGroup/providers/Microsoft.RecoveryServices/vaults/$ASRVault/replicationFabrics/$fabric/replicationProtectionContainers/$ASRProtectionContainerName/replicationProtectedItems/"$ProtectedItemMoon"?api-version=2015-11-10
+
+Echo "The prototype is now ready to execute the test failover!"
+Echo "Proceed with ANY key when ready..."
+# Ask user for key input ;
+$HOST.UI.RawUI.ReadKey(“NoEcho,IncludeKeyDown”) | OUT-NULL
+$HOST.UI.RawUI.Flushinputbuffer()
+
+# Prepare for failover ...
+# Starting with testFailover ... ;
+armclient POST $SUB/resourceGroups/$ResGroup/providers/Microsoft.RecoveryServices/vaults/$ASRVault/replicationFabrics/$fabric/replicationProtectionContainers/$ASRProtection/ContainerName/replicationProtectedItems/$ProtectedItemMoon/testFailover?api-version=2015-11-10 "@.\json\TestFailoverMoon.json"
+Echo "Check the Azure Portal now and complete the test failover."
+Echo "Delete test instance immediately..."
+# Sleep now for 10 Minutes to complete the test failover steps ;
+Echo "Waiting for 10 Minutes now to complete the test failover steps..."
+Start-Sleep -Seconds 600
+Echo "Proceed with ANY key when ready..."
+# Ask user for key input ;
+$HOST.UI.RawUI.ReadKey(“NoEcho,IncludeKeyDown”) | OUT-NULL
+$HOST.UI.RawUI.Flushinputbuffer()
+
+# Final failover ;
+Echo "The prototype will now execute the failover together with Azure Site Recovery."
+Echo "After the failover has been completed successfully you will be able to see the VM in 'Virtual Machines' on Azure."
+armclient POST $SUB/resourceGroups/$ResGroup/providers/Microsoft.RecoveryServices/vaults/$ASRVault/replicationFabrics/$fabric/replicationProtectionContainers/$ASRProtection/ContainerName/replicationProtectedItems/$ProtectedItemMoon/unPlannedFailover?api-version=2015-11-10 "@.\json\FinalFailoverMoon.json"
 

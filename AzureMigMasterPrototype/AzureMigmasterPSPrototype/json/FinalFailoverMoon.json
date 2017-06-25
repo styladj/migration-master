@@ -1,0 +1,86 @@
+{
+  "properties": {
+      "failoverDirection": "",
+      "providerSpecificDetails": {
+  "instanceType": "InMageAzureV2",
+  "infrastructureVmId": "28cb61d5-4af6-11e7-8306-005056ae9154",
+  "vCenterInfrastructureId": "1",
+  "protectionStage": "DifferentialSync",
+  "vmId": "28cb61d5-4af6-11e7-8306-005056ae9154",
+  "vmProtectionState": "Protected",
+  "vmProtectionStateDescription": "Protected",
+  "resyncProgressPercentage": 0,
+  "rpoInSeconds": 639,
+  "compressedDataRateInMB": 1310.477836291,
+  "uncompressedDataRateInMB": 1310.477836291,
+  "ipAddress": "192.168.1.132",
+  "agentVersion": "9.9.0.0",
+  "isAgentUpdateRequired": "NotRequired",
+  "isRebootAfterUpdateRequired": "NotRequired",
+  "lastHeartbeat": "2017-06-25T16:59:32Z",
+  "processServerId": "64C32524-4E34-B342-AF515EF1145E47AE",
+  "multiVmGroupId": "947c07e4-9599-48cb-a6e6-e3baf44e8d48",
+  "multiVmGroupName": "947c07e4-9599-48cb-a6e6-e3baf44e8d48",
+  "protectedDisks": [
+    {
+      "diskId": "/dev/sda",
+      "diskName": "/dev/sda",
+      "protectionStage": "DifferentialSync",
+      "healthErrorCode": "ECH0007",
+      "rpoInSeconds": 639,
+      "resyncRequired": "NotRequired",
+      "resyncProgressPercentage": 0,
+      "resyncDurationInSeconds": 21970,
+      "diskCapacityInBytes": 10737418240,
+      "fileSystemCapacityInBytes": 10737418240,
+      "sourceDataInMegaBytes": 0.41,
+      "psDataInMegaBytes": 0.0,
+      "targetDataInMegaBytes": 0.0,
+      "diskResized": "NotResized"
+    }
+  ],
+  "diskResized": "NotResized",
+  "masterTargetId": "64C32524-4E34-B342-AF515EF1145E47AE",
+  "sourceVmCPUCount": 1,
+  "sourceVmRAMSizeInMB": 992,
+  "osType": "Linux",
+  "vhdName": "/dev/sda",
+  "osDiskId": "/dev/sda",
+  "azureVMDiskDetails": [],
+  "recoveryAzureVMName": "Moon-UbuntuBOX",
+  "recoveryAzureVMSize": "Basic_A1",
+  "recoveryAzureStorageAccount": "/subscriptions/8074cfce-94b3-4af9-b6c3-18df7b96e869/resourceGroups/mmaster/providers/Microsoft.Storage/storageAccounts/vmds001",
+  "recoveryAzureLogStorageAccountId": null,
+  "vmNics": [
+    {
+      "nicId": "00:50:56:AE:07:3A",
+      "vMSubnetName": "Subnet-1",
+      "vMNetworkName": "eth0",
+      "recoveryVMNetworkId": "/subscriptions/8074cfce-94b3-4af9-b6c3-18df7b96e869/resourceGroups/mmaster/providers/Microsoft.Network/virtualNetworks/mmaster-Azure-Lan",
+      "recoveryVMSubnetName": "default",
+      "ipAddressType": "Static",
+      "replicaNicStaticIPAddress": null,
+      "selectionType": "SelectedByUser"
+    },
+    {
+      "nicId": "00:50:56:AE:4F:3D",
+      "vMSubnetName": "Subnet-1",
+      "vMNetworkName": "eth1",
+      "recoveryVMNetworkId": null,
+      "recoveryVMSubnetName": "default",
+      "ipAddressType": "Static",
+      "replicaNicStaticIPAddress": null,
+      "selectionType": "SelectedByUser"
+    }
+  ],
+  "selectedRecoveryAzureNetworkId": "/subscriptions/8074cfce-94b3-4af9-b6c3-18df7b96e869/resourceGroups/mmaster/providers/Microsoft.Network/virtualNetworks/mmaster-Azure-Lan",
+  "discoveryType": "vCenter",
+  "enableRDPOnTargetOption": "Never",
+  "datastores": [
+    "ESXi03-DS01"
+  ],
+  "targetVmId": "/subscriptions/8074cfce-94b3-4af9-b6c3-18df7b96e869/resourceGroups/mmaster/providers/Microsoft.Compute/virtualMachines/"
+},
+"sourceSiteOperations": "Required",
+}
+}

@@ -1,3 +1,22 @@
+
+
+Get details of a replication protected item:
+armclient GET $SUB/resourceGroups/$ResGroup/providers/Microsoft.RecoveryServices/vaults/$ASRVault/replicationFabrics/$fabric/replicationProtectionContainers/$ASRProtectionContainerName/replicationProtectedItems/"$ProtectedItemMoon"?api-version=2015-11-10
+
+Get a list of replication protected items in azure:
+armclient GET $SUB/resourceGroups/$ResGroup/providers/Microsoft.RecoveryServices/vaults/$ASRVault/replicationFabrics/$fabric/replicationProtectionContainers/$ASRProtectionContainerName/replicationProtectedItems?api-version=2015-11-10
+
+test failover:
+https://management.azure.com/subscriptions/{subscriptionId}/resourceGroups/{resourceGroupName}/providers/Microsoft.RecoveryServices/vaults/{resourceName}/replicationFabrics/{fabricName}/replicationProtectionContainers/{containerName}/replicationProtectedItems/{protectedItemName}/testFailover?api-version=<api-version>
+armclient POST $SUB/resourceGroups/$ResGroup/providers/Microsoft.RecoveryServices/vaults/$ASRVault/replicationFabrics/$fabric/replicationProtectionContainers/$ASRProtectionContainerName/replicationProtectedItems/$ProtectedItemMoon/testFailover?api-version=2015-11-10 @input.json
+
+armclient POST $SUB/resourceGroups/$ResGroup/providers/Microsoft.RecoveryServices/vaults/$ASRVault/replicationFabrics/$fabric/replicationProtectionContainers/$ASRProtection/ContainerName/replicationProtectedItems/$ProtectedItemMoon/testFailover?api-version=2015-11-10 "@.\FinalFailoverMoon.json"
+
+
+armclient GET $SUB/resourceGroups/$ResGroup/providers/Microsoft.RecoveryServices/vaults/$ASRVault/replicationFabrics/$fabric/replicationProtectionContainers/$ASRProtectionContainerName/replicationProtectedItems?api-version=2015-11-10
+
+-------------------------------------------------------------------------
+
 : Create Azure Active Directory Application:
   - If not logged in, log in to the Azure Portal
   - Then choose "Azure Active Directory" and select "App registrations"

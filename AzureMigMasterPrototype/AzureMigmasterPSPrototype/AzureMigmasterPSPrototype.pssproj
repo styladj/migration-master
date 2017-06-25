@@ -28,7 +28,7 @@
   </PropertyGroup>
   <ItemGroup />
   <ItemGroup>
-    <Compile Include="AzureMigMasterPSPrototype-v01-DRAFT.ps1" />
+    <Compile Include="AzureMigMasterPSPrototype-v01.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />

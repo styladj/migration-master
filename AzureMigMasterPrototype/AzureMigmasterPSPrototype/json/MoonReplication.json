@@ -1,0 +1,13 @@
+{
+    "properties": {
+        "policyId": "/Subscriptions/8074cfce-94b3-4af9-b6c3-18df7b96e869/resourceGroups/mmaster/providers/Microsoft.RecoveryServices/vaults/MMaster-AZ-Site-Recovery/replicationPolicies/mmaster-pol-fo-01",
+        "providerSpecificDetails":
+             {
+      "instanceType": "InMageAzureV2",
+      "infrastructureVmId": "28cb61d5-4af6-11e7-8306-005056ae9154",
+      "vmName": "Moon-UbuntuBOX",
+      "osType": "LINUX",
+      "targetStorageAccountId": "/subscriptions/8074cfce-94b3-4af9-b6c3-18df7b96e869/resourceGroups/mmaster/providers/Microsoft.Storage/storageAccounts/vmds001"
+    }
+}
+}

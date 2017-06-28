@@ -4,31 +4,64 @@
 #############################################################
 #############################################################
 
-<# Script for automatic replication of pre-defined on-premises VMs
-# Script aims to connect to Azure, will enable replication for them (inside Azure), should also do a test 
-# failover and finally will force the migration to Azure.
-# And as an (optional) step: It can also initiate the repair of the replication of a specific VM
-# NOTE: THE PROTOTYPE WILL MODIFY YOUR INFRASTRUCTURE IN AZURE !!!
-# USE IT WITH CARE !!!	
-#
-################# CHANGELOG #################################
-# v0.1 - 2017-05-30 initial release
-# 2017-06-11: 
-#	- adaptions to 'ARMClient'
-#	- added installation of chocolatey and ARMClient
-#	- added authentication to Azure by token
-#	- added resource group listing
-# 2017-06-12:
-#	- added fabrics
-# 2017-06-25:
-#	- added test failover and failover commands
-#	- created JSON input files for test failover and final failover
-# 2017-06-28:
-#	- added code for VM replication
-#	- created JSON input file for VM to enable replication
-ä	- added code to initiate repair VM replication state in ASR
-#	- code cleanup
-############################################################
+<# 
+1) BASIC INFORMATION:
+
+	Script for automatic replication of pre-defined on-premises VMs
+	Script aims to connect to Azure, will enable replication for them (inside Azure), should also do a test 
+	failover and finally will force the migration to Azure.
+	And as an (optional) step: It can also initiate the repair of the replication of a specific VM
+	NOTE: THE PROTOTYPE WILL MODIFY YOUR INFRASTRUCTURE IN AZURE !!!
+	USE IT WITH CARE !!!	
+
+2.) RUNNING THIS SCRIPT / SCRIPT EXECUTION:
+
+	The script installs software.
+	Therefore it needs to be run with administrator permissions.
+	The PowerShell execution policy has to be set to 'Unrestricted' or needs to be bypassed 
+	to run this script accordingly.
+		
+	To set the execution policy to 'Unrestricted' open PowerShell as administrator and enter:
+		Set-ExecutionPolicy Unrestricted
+	To bypass execution policy start the script with:
+		PowerShell.exe -ExecutionPolicy Bypass .\scriptfile.ps1
+
+	To permanently bypass the execution policy open PowerShell as administrator and enter:
+		Set-ExecutionPolicy ByPass
+
+3.) CHANGELOG:
+
+	2017-05-30:
+		- initial draft release
+	2017-06-11: 
+		- adaptions to 'ARMClient'
+		- added installation of chocolatey and ARMClient
+		- added authentication to Azure by token
+		- added resource group listing
+	2017-06-12:
+		- added fabrics
+	2017-06-25:
+		- added test failover and failover commands
+		- created JSON input files for test failover and final failover
+	2017-06-28:
+		- added code for VM replication
+		- created JSON input file for VM to enable replication
+		- added code to initiate repair VM replication state in ASR
+		- code cleanup
+
+4.) SOURCES:
+
+	ARMClient:
+		- http://blog.davidebbo.com/2015/01/azure-resource-manager-client.html
+	Chocolatey:
+		- https://chocolatey.org/
+	Azure:
+		- https://azure.microsoft.com/
+	Azure Site Recovery:
+		- https://docs.microsoft.com/en-us/azure/site-recovery/
+	Azure Site Recovery REST API Documentation:
+		- https://msdn.microsoft.com/en-us/library/mt750497.aspx
+
 #>
 
 Echo "Setting variables now..." 
@@ -74,6 +107,8 @@ Get-Variable -Name "AppID"
 # Wait for User input to start application ;
 Echo "ATTENTION: THE PROTOTYPE WILL MODIFY YOUR INFRASTRUCTURE IN AZURE !!!"
 Echo "USE IT WITH CARE !!!"
+Echo "The script installs software."
+Echo "Therefore it needs to be run with administrator permissions."
 Echo "Hit any key to start the application..."
 $HOST.UI.RawUI.ReadKey(“NoEcho,IncludeKeyDown”) | OUT-NULL
 $HOST.UI.RawUI.Flushinputbuffer()
@@ -81,10 +116,6 @@ $HOST.UI.RawUI.Flushinputbuffer()
 # LOG START ;
 echo "Script started on: " > logs/script.log
 date >> logs/script.log
-
-# First of all, adapt PowerShell Execution Policy ;
-Echo "PowerShell Execution Policy will be adapted now accordingly..."
-Set-ExecutionPolicy ByPass
 
 # Now install 'chocolatey', the software management which will install the 'ARMClient' for us ;
 iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))

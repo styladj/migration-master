@@ -32,7 +32,6 @@
 #>
 
 Echo "Setting variables now..." 
-
 # BASIC VARIABLES ;
 # VAR for subscription ;
 Set-Variable -Name "SUB" -Value "/subscriptions/8074cfce-94b3-4af9-b6c3-18df7b96e869";
@@ -57,17 +56,13 @@ Set-Variable -Name "ASRProviderID" -Value "6484e0e8-9d78-46e1-b1ac-278f76e0725d"
 # VAR for Protection container name of Configuration Server 'SUN' ;
 # Protection container name is in this case: cloud_6484e0e8-9d78-46e1-b1ac-278f76e0725d ;
 Set-Variable -Name "ASRProtectionContainerName" -Value "cloud_6484e0e8-9d78-46e1-b1ac-278f76e0725d";
-
 # VARIABLES FOR ADVANCED PART ;
 # VAR for ASR name of protectable on-premises VM 'Moon_UbuntuBOX' ;
 Set-Variable -Name "ProtectableItemMoon" -Value "28cb61d5-4af6-11e7-8306-005056ae9154"
-
 # VAR for ASR name of protected on-premises VM 'Moon_UbuntuBOX' ;
 Set-Variable -Name "ProtectedItemMoon" -Value "28cb61d5-4af6-11e7-8306-005056ae9154"
-
 # VAR for Replication policy name in ASR ;
 Set-Variable -Name "ReplicationPolicy" -Value "d8e4aaf5-3fee-4291-8928-4aff1dc783cf"
-
 # VAR for Failback Replication policy name in ASR ;
 Set-Variable -Name "FailbackReplicationPolicy" -Value "10c93c82-a5ac-4a03-bc7f-2ad1943af72a"
 

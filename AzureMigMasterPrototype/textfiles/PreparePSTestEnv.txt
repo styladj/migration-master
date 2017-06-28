@@ -1,39 +1,34 @@
-# BASIC VARIABLES
-# VAR for subscription
+Echo "Setting variables now..." 
+# BASIC VARIABLES ;
+# VAR for subscription ;
 Set-Variable -Name "SUB" -Value "/subscriptions/8074cfce-94b3-4af9-b6c3-18df7b96e869";
-# VAR for resourceGroup Name
+# VAR for resourceGroup Name ;
 Set-Variable -Name "ResGroup" -Value "mmaster";
-# VAR for Azure API version; change version here if required;
+# VAR for Azure API version ;
+# change version here if required ;
 Set-Variable -Name "ResAZapi" -Value "2016-09-01";
-# VAR for Azure Tenant ID
+# VAR for Azure Tenant ID ;
 Set-Variable -Name "TenantID" -Value "e2367125-41e3-4124-bacc-5ee027d27287";
-# VAR for Azure AD application ID
+# VAR for Azure AD application ID ;
 Set-Variable -Name "AppID" -Value "8c2e06a6-d5b6-4be1-8d60-7086d2ccc972";
-# VAR for Azure AD application key
+# VAR for Azure AD application key ;
 Set-Variable -Name "SPKey" -Value "IyvZvyZDIuuLRucg0Q+ssjACzacwJrU6k/3OZv1dVz0=";
-# VAR for Azure Site Recovery vault
+# VAR for Azure Site Recovery vault ;
 Set-Variable -Name "ASRVault" -Value "MMaster-AZ-Site-Recovery";
-# VAR for Azure Site Recovery fabric with friendlyName SUN; Azure requires the id;
-# id for Sun is bb725fe4ee3afccf122c02184fd8d596a21ea8f232b6cf782fb16525f58a529f;
+# VAR for Azure Site Recovery fabric with friendlyName SUN; Azure requires the id ;
+# id for Sun is bb725fe4ee3afccf122c02184fd8d596a21ea8f232b6cf782fb16525f58a529f ;
 Set-Variable -Name "fabric" -Value "bb725fe4ee3afccf122c02184fd8d596a21ea8f232b6cf782fb16525f58a529f";
-# VAR for Recovery Services Providers id in Azure Site Recovery;
+# VAR for Recovery Services Providers id in Azure Site Recovery ;
 Set-Variable -Name "ASRProviderID" -Value "6484e0e8-9d78-46e1-b1ac-278f76e0725d";
-# VAR for Protection container name of Configuration Server 'SUN';
-# Protection container name is in this case: cloud_6484e0e8-9d78-46e1-b1ac-278f76e0725d;
+# VAR for Protection container name of Configuration Server 'SUN' ;
+# Protection container name is in this case: cloud_6484e0e8-9d78-46e1-b1ac-278f76e0725d ;
 Set-Variable -Name "ASRProtectionContainerName" -Value "cloud_6484e0e8-9d78-46e1-b1ac-278f76e0725d";
-
-# VARIABLES FOR ADVANCED PART
-# VAR for ASR name of protectable on-premises VM 'Moon_UbuntuBOX'
+# VARIABLES FOR ADVANCED PART ;
+# VAR for ASR name of protectable on-premises VM 'Moon_UbuntuBOX' ;
 Set-Variable -Name "ProtectableItemMoon" -Value "28cb61d5-4af6-11e7-8306-005056ae9154"
-
-# VAR for ASR name of protected on-premises VM 'Moon_UbuntuBOX'
+# VAR for ASR name of protected on-premises VM 'Moon_UbuntuBOX' ;
 Set-Variable -Name "ProtectedItemMoon" -Value "28cb61d5-4af6-11e7-8306-005056ae9154"
-
-# VAR for Replication policy name in ASR
+# VAR for Replication policy name in ASR ;
 Set-Variable -Name "ReplicationPolicy" -Value "d8e4aaf5-3fee-4291-8928-4aff1dc783cf"
-
-# VAR for Failback Replication policy name in ASR
+# VAR for Failback Replication policy name in ASR ;
 Set-Variable -Name "FailbackReplicationPolicy" -Value "10c93c82-a5ac-4a03-bc7f-2ad1943af72a"
-
-# Authenticate with Azure; Get a token
-armclient spn $TenantID $AppID $SPKey
